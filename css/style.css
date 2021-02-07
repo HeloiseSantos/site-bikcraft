@@ -10,6 +10,10 @@ p {
     line-height: 20px;
 }
 
+img {
+    display: block;
+}
+
 .btn {
     color: #FEC63E;
     text-transform: uppercase;
@@ -192,7 +196,6 @@ p {
 }
 
 /* Home - Portifólio */
-
 .portfolio {
     width: 100%;
     background-color: #000;
@@ -205,4 +208,44 @@ p {
 
 .portfolio .call p {
     color: #FFF;
+}
+
+/* Home - Qualidade */
+.qualidade {
+    padding: 60px 0;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidade_lista {
+    margin-top: 40px;
+}
+
+.qualidade_lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade_lista li h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.qualidade_lista li h3::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 2px auto 0;
+}
+
+.qualidade_lista li p {
+    padding: 10px 20px 20px 20px;
 }
