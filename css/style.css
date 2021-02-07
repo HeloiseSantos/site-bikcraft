@@ -10,6 +10,10 @@ p {
     line-height: 20px;
 }
 
+img {
+    display: block;
+}
+
 .btn {
     color: #FEC63E;
     text-transform: uppercase;
@@ -24,7 +28,40 @@ p {
 
 .btn:hover {
     color: #FFF;
-    border: 3px solid #FFF;
+    border-color:#FFF;
+}
+
+.btn.btn-preto:hover {
+    color: #000;
+    border-color:#000;
+}
+
+.subtitulo {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 10px auto 0;
+}
+
+.subtitulo.subtitulo-amarelo {
+    color: #FEC63E;
+}
+
+.subtitulo.subtitulo-amarelo::after {
+    background-color: #FEC63E;
 }
 
 /* Header */
@@ -34,6 +71,7 @@ p {
     width: 100%;
     background-color: #FEC63E;
     padding: 15px 0;
+    z-index: 10;
 }
 
 .header_menu {
@@ -61,7 +99,7 @@ p {
     transition: all .3s ease;
 }
 
-/* Introdução */
+/* Home - Introdução */
 .introducao {
     width: 100%;
     height: 380px;
@@ -108,4 +146,180 @@ p {
     font-size: 14px;
     letter-spacing: .1em;
     text-transform: uppercase;
+}
+
+/* Home - Produtos */
+.produtos {
+    padding: 60px 0;
+}
+
+.produtos_lista li {
+    background-color: #FEC63E;
+    text-align: center;
+}
+
+.produtos_lista li h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.produtos_lista li h3::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 2px auto 0;
+}
+
+.produtos_lista li p {
+    padding: 10px 20px 20px 20px;
+}
+
+.produtos_lista .produtos_icone{
+    background-color: #000;
+    padding: 20px;
+}
+
+.call {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.call p {
+    margin-bottom: 20px;
+}
+
+/* Home - Portifólio */
+.portfolio {
+    width: 100%;
+    background-color: #000;
+    padding: 60px 0;
+}
+
+.portfolio_lista li:last-child {
+    margin-top: 20px;
+}
+
+.portfolio .call p {
+    color: #FFF;
+}
+
+/* Home - Qualidade */
+.qualidade {
+    padding: 60px 0;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidade_lista {
+    margin-top: 40px;
+}
+
+.qualidade_lista li {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidade_lista li h3 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.qualidade_lista li h3::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000;
+    margin: 2px auto 0;
+}
+
+.qualidade_lista li p {
+    padding: 10px 20px 20px 20px;
+}
+
+/* Home - Quebra */
+.quebra  {
+    width: 100%;
+    height: 220px;
+    background-image: url("../img/background/bg-footer.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.quebra .quote-externo {
+    max-width: 400px;
+}
+
+/* Home - Footer */
+.footer {
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    padding: 20px 0;
+}
+
+.footer h3 {
+    color: #FEC63E;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.footer h3::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #FEC63E;
+    margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+    padding-right: 40px;
+}
+
+.footer_contato li {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer_redes li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_redes li a {
+    display: block;
+    border: 3px solid #FEC63E;
+    padding: 10px;
+}
+
+.footer_redes li a:hover {
+    border-color: #FFF;
+    background-color: #FFF;
+}
+
+.copyright {
+    width: 100%;
+    background-color: #FEC63E;
+    padding: 20px 0;
 }
