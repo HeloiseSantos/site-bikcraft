@@ -21,17 +21,27 @@
     }
 
     .header_menu ul li {
-        margin: 0;
+        margin: 5px;
     }
 
     .header_menu ul li a {
         display: block;
         border: 2px solid #000;
-        width: 140px;
+        width: 136px;
         float: left;
     }
 
     .header_menu ul li a:hover {
         border-color: #FFF;
+    }
+
+    /*Introdução */
+    .introducao {
+        background-image: url("../img/background/bg-mobile.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-top: 0;
+        padding-top: 13px;
     }
 }
