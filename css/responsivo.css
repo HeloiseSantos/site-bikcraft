@@ -1,6 +1,18 @@
 /* Responsivo Tablet */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+    /* Qualidade */
+    .qualidade_lista li {
+        padding: 0 10px;
+    }
 
+    /* Footer */
+    .footer_redes li a {
+        padding: 3px;
+    }
+
+    .footer_redes li a img {
+        transform: scale(0.7);
+    }
 }
 
 /* Responsivo smartphone */
@@ -42,6 +54,15 @@
         background-position: center;
         background-size: cover;
         margin-top: 0;
-        padding-top: 13px;
+        padding-top: 66px;
+    }
+
+    .introducao h1 {
+        font-size: 36px;
+    }
+
+    /* Call to action */
+    .call {
+        padding-top: 10px;
     }
 }
