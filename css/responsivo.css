@@ -47,6 +47,10 @@
         border-color: #FFF;
     }
 
+    .header_menu a.menu_ativo {
+        border-color: #FFF;
+    }
+
     /*Introdução */
     .introducao {
         background-image: url("../img/background/bg-mobile.jpg");
@@ -61,8 +65,41 @@
         font-size: 36px;
     }
 
+    /* Introdução interna */
+    .introducao-interna {
+        margin-top: 0;
+    }
+
+    /* Subtítulo */
+    .subtitulo {
+        font-size: 22px;
+        letter-spacing: 0.05em;
+    }
+
     /* Call to action */
     .call {
+        padding-top: 10px;
+    }
+
+    /* Sobre */
+    .subtitulo-interno {
+        font-size: 22px;
+        letter-spacing: 0.05em;
+    }
+
+    .missao_sobre p {
+        font-size: 14px;
+    }
+
+    .missao_sobre li {
+        font-size: 14px;
+    }
+
+    .missao_sobre p {
+        padding-right: 0;
+    }
+
+    .foto-equipe {
         padding-top: 10px;
     }
 }
