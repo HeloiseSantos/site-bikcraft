@@ -1,5 +1,6 @@
 /* Responsivo Tablet */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+
     /* Qualidade */
     .qualidade_lista li {
         padding: 0 10px;
@@ -12,6 +13,28 @@
 
     .footer_redes li a img {
         transform: scale(0.7);
+    }
+
+    /* Produtos */
+    .produto_item h2 {
+        top: -160px;
+    }
+
+    .produto-icone {
+        padding: 41px 0;
+    }
+
+    .produto-info p {
+        font-size: 14px;
+        padding: 20px 30px;
+        height: 140px;
+    }
+
+    .produto-info li {
+        font-size: 16px;
+        padding-top: 10px;
+        width: 181px;
+        height: 40px;
     }
 }
 
@@ -101,5 +124,32 @@
 
     .foto-equipe {
         padding-top: 10px;
+    }
+
+    /* Produtos */
+    .produto_item h2 {
+        top: -110px;
+        margin-bottom: -76px;
+    }
+
+    .produto-icone {
+        padding: 41px 0;
+    }
+
+    .produto-info p {
+        font-size: 14px;
+        padding: 10px 30px;
+        height: auto;
+    }
+
+    .produto-info li {
+        font-size: 14px;
+        padding-top: 10px;
+        width: 149px;
+        height: 40px;
+    }
+
+    .form {
+        padding-right: 0;
     }
 }
