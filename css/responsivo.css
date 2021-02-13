@@ -152,4 +152,13 @@
     .form {
         padding-right: 0;
     }
+
+    /* Portfólio */
+    .quote-clientes p {
+        font-size: 16px;
+    }
+
+    .quote-clientes cite {
+        font-size: 16px;
+    }
 }
