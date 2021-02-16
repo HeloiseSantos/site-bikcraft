@@ -43,12 +43,12 @@
 
     <section class="introducao-interna interna_contato">
         <div class="container">
-            <h1>Contato</h1>
-            <p>Tire suas dúvida com a gente</p>
+            <h1 data-anime="400" class="fadeInDown">Contato</h1>
+            <p data-anime="800" class="fadeInDown">Tire suas dúvida com a gente</p>
         </div>
     </section>
 
-    <section class="container contato">
+    <section class="container contato fadeInDown" data-anime="1200">
         <form id="form-contato" class="grid-10 contato-form">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
@@ -164,5 +164,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
