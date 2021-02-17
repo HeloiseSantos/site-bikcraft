@@ -317,7 +317,7 @@ img {
     transform: translate3d(0,-20px,0);
 }
 
-.js .fadeInUp {
+/* .js .fadeInUp {
     transform: translate3d(0,20px,0);
 }
 
@@ -327,7 +327,7 @@ img {
 
 .js .fadeInLeft {
     transform: translate3d(-20px,0,0);
-}
+} */
 
 .js .anime {
     opacity: 1;
