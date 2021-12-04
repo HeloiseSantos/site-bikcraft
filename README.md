@@ -1,4 +1,4 @@
-<h1 align="center">Brafé 01 - Grid Layout</h1>
+<h1 align="center">Bikcraft</h1>
 
 # O projeto
 Projeto desenvolvido durante o curso "Web Design Completo" da Origamid - https://www.origamid.com/curso/web-design-completo - focado em desenvolver um site de bicicletas, responsivo e com diferentes telas.<br/> 
